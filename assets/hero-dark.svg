@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Ali Naim — Cybersecurity Student — Available now">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300" role="img" aria-label="Ali Naim — Cybersecurity Student — Available now">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
@@ -15,48 +15,48 @@
     </pattern>
   </defs>
 
-  <rect width="1280" height="360" fill="url(#bg)"/>
-  <rect width="1280" height="360" fill="url(#grid)"/>
-  <rect x="0" y="0" width="6" height="360" fill="url(#accent)"/>
+  <rect width="1280" height="300" fill="url(#bg)"/>
+  <rect width="1280" height="300" fill="url(#grid)"/>
+  <rect x="0" y="0" width="6" height="300" fill="url(#accent)"/>
 
-  <g transform="translate(60, 25)">
-    <rect x="0" y="0" rx="25" ry="25" width="250" height="50" fill="#0d1117" stroke="#3fb950" stroke-width="1.8"/>
-    <circle cx="26" cy="25" r="7" fill="#3fb950">
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, system-ui, sans-serif">
+    <text x="60" y="65" font-size="22" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#7d8590">$ whoami</text>
+    <text x="60" y="140" font-size="76" font-weight="700" fill="#f0f6fc" letter-spacing="-2">Ali Naim</text>
+    <text x="60" y="190" font-size="28" font-weight="500" fill="#c9d1d9">Cybersecurity student &#8226; SOC analysis &amp; penetration testing</text>
+    <text x="60" y="240" font-size="18" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#58a6ff">eJPT &#8226; ICCA &#8226; USAL '27 &#8226; Lebanon</text>
+  </g>
+
+  <g transform="translate(455, 110)">
+    <rect x="0" y="0" rx="23" ry="23" width="240" height="46" fill="#0d1117" stroke="#3fb950" stroke-width="1.8"/>
+    <circle cx="24" cy="23" r="7" fill="#3fb950">
       <animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/>
       <animate attributeName="r" values="7;8.5;7" dur="1.6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="26" cy="25" r="7" fill="none" stroke="#3fb950" stroke-width="2" opacity="0.65">
+    <circle cx="24" cy="23" r="7" fill="none" stroke="#3fb950" stroke-width="2" opacity="0.65">
       <animate attributeName="r" values="7;22" dur="1.6s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.65;0" dur="1.6s" repeatCount="indefinite"/>
     </circle>
-    <text x="50" y="32" font-size="19" font-weight="700" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, system-ui, sans-serif" fill="#3fb950">Available now</text>
+    <text x="48" y="30" font-size="18" font-weight="700" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, system-ui, sans-serif" fill="#3fb950">Available now</text>
   </g>
 
-  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, system-ui, sans-serif">
-    <text x="60" y="120" font-size="22" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#7d8590">$ whoami</text>
-    <text x="60" y="190" font-size="76" font-weight="700" fill="#f0f6fc" letter-spacing="-2">Ali Naim</text>
-    <text x="60" y="240" font-size="28" font-weight="500" fill="#c9d1d9">Cybersecurity student &#8226; SOC analysis &amp; penetration testing</text>
-    <text x="60" y="290" font-size="18" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#58a6ff">eJPT &#8226; ICCA &#8226; USAL '27 &#8226; Lebanon</text>
-  </g>
-
-  <g transform="translate(1080, 180)" opacity="0.95">
-    <circle cx="0" cy="0" r="78" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.25"/>
-    <circle cx="0" cy="0" r="58" fill="none" stroke="#a371f7" stroke-width="1" opacity="0.25"/>
-    <circle cx="0" cy="0" r="38" fill="none" stroke="#7ee787" stroke-width="1" opacity="0.25"/>
-    <path d="M -78 0 L 78 0 M 0 -78 L 0 78" stroke="#30363d" stroke-width="0.7"/>
+  <g transform="translate(1080, 150)" opacity="0.95">
+    <circle cx="0" cy="0" r="68" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.25"/>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#a371f7" stroke-width="1" opacity="0.25"/>
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#7ee787" stroke-width="1" opacity="0.25"/>
+    <path d="M -68 0 L 68 0 M 0 -68 L 0 68" stroke="#30363d" stroke-width="0.7"/>
 
     <circle cx="0" cy="0" r="6" fill="none" stroke="#58a6ff" stroke-width="2">
-      <animate attributeName="r" values="6;82" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="6;72" dur="3s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0" dur="3s" repeatCount="indefinite"/>
       <animate attributeName="stroke-width" values="2;0.5" dur="3s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="6" fill="none" stroke="#a371f7" stroke-width="2">
-      <animate attributeName="r" values="6;82" dur="3s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="6;72" dur="3s" begin="1s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0" dur="3s" begin="1s" repeatCount="indefinite"/>
       <animate attributeName="stroke-width" values="2;0.5" dur="3s" begin="1s" repeatCount="indefinite"/>
     </circle>
     <circle cx="0" cy="0" r="6" fill="none" stroke="#7ee787" stroke-width="2">
-      <animate attributeName="r" values="6;82" dur="3s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="6;72" dur="3s" begin="2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0" dur="3s" begin="2s" repeatCount="indefinite"/>
       <animate attributeName="stroke-width" values="2;0.5" dur="3s" begin="2s" repeatCount="indefinite"/>
     </circle>
@@ -69,7 +69,7 @@
     </circle>
 
     <g stroke="#58a6ff" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.7">
-      <line x1="0" y1="0" x2="78" y2="0">
+      <line x1="0" y1="0" x2="68" y2="0">
         <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="6s" repeatCount="indefinite"/>
       </line>
     </g>

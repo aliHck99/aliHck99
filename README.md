@@ -114,7 +114,7 @@ VLAN segmentation, routing, and ACL filtering configured and validated
 
 `Nmap` `gobuster` `Metasploit` `PwnKit`
 
-4 documented rooms · flags redacted
+30+ solved · 4 documented rooms · flags redacted
 
 </td>
 </tr>

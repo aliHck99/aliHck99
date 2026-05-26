@@ -1,10 +1,10 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="./assets/hero-mobile-dark.svg?v=3">
-  <source media="(max-width: 768px)" srcset="./assets/hero-mobile-light.svg?v=3">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg?v=3">
-  <img src="./assets/hero-light.svg?v=3" alt="Ali Naim — Cybersecurity Student" width="100%">
+  <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="./assets/hero-mobile-dark.svg?v=4">
+  <source media="(max-width: 768px)" srcset="./assets/hero-mobile-light.svg?v=4">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg?v=4">
+  <img src="./assets/hero-light.svg?v=4" alt="Ali Naim — Cybersecurity Student" width="100%">
 </picture>
 
 <br/>

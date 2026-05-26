@@ -36,7 +36,7 @@ I'm **available now** for SOC analyst and penetration testing internships or jun
 |:---|:---|
 | 🟢 &nbsp; **Polishing** &nbsp; | Documentation, MITRE mappings, and repo cleanup across the three labs — getting them application-ready |
 | 🔵 &nbsp; **Reading** &nbsp; | SOC analyst &amp; penetration tester job descriptions · **MITRE ATT&CK** Enterprise matrix · interview prep notes |
-| 🟠 &nbsp; **Studying** &nbsp; | Reviewing eJPT material · Active Directory attack paths · detection-rule design patterns for blue-team interviews |
+| 🟠 &nbsp; **Studying** &nbsp; |  Active Directory attack paths · detection-rule design patterns for blue-team interviews |
 
 ---
 

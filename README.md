@@ -170,8 +170,8 @@ Markdown writeups for four TryHackMe rooms — Anonymous, Broker, LazyAdmin, Won
 
 Open to **SOC analyst · penetration testing · cybersecurity internship** roles &nbsp;·&nbsp; **available now**
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-naim)
-&nbsp;
+
+
 [![Email](https://img.shields.io/badge/Send_me_an_email-58A6FF?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hck20255@gmail.com)
 
 <sub>Lebanon &nbsp;·&nbsp; Arabic, English, French</sub>

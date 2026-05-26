@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Ali Naim — Cybersecurity Student">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#a371f7"/>
+      <stop offset="1" stop-color="#7ee787"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <rect x="0" y="0" width="6" height="360" fill="url(#accent)"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, system-ui, sans-serif">
+    <text x="60" y="120" font-size="22" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#7d8590">$ whoami</text>
+    <text x="60" y="190" font-size="76" font-weight="700" fill="#f0f6fc" letter-spacing="-2">Ali Naim</text>
+    <text x="60" y="240" font-size="28" font-weight="500" fill="#c9d1d9">Cybersecurity student &#8226; SOC analysis &amp; penetration testing</text>
+    <text x="60" y="290" font-size="18" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#58a6ff">eJPT &#8226; ICCA &#8226; USAL '27 &#8226; Lebanon</text>
+  </g>
+  <g transform="translate(960, 90)" opacity="0.85">
+    <circle cx="120" cy="90" r="78" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="120" cy="90" r="58" fill="none" stroke="#a371f7" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="120" cy="90" r="38" fill="none" stroke="#7ee787" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="120" cy="90" r="6" fill="#7ee787"/>
+    <path d="M 42 90 L 198 90 M 120 12 L 120 168" stroke="#30363d" stroke-width="0.8"/>
+  </g>
+</svg>

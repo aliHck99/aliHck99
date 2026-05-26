@@ -26,20 +26,7 @@
     <text x="60" y="240" font-size="18" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#0969da">eJPT &#8226; ICCA &#8226; USAL '27 &#8226; Lebanon</text>
   </g>
 
-  <g transform="translate(455, 110)">
-    <rect x="0" y="0" rx="23" ry="23" width="240" height="46" fill="#ffffff" stroke="#1a7f37" stroke-width="1.8"/>
-    <circle cx="24" cy="23" r="7" fill="#1a7f37">
-      <animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="7;8.5;7" dur="1.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="24" cy="23" r="7" fill="none" stroke="#1a7f37" stroke-width="2" opacity="0.65">
-      <animate attributeName="r" values="7;22" dur="1.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.65;0" dur="1.6s" repeatCount="indefinite"/>
-    </circle>
-    <text x="48" y="30" font-size="18" font-weight="700" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, system-ui, sans-serif" fill="#1a7f37">Available now</text>
-  </g>
-
-  <g transform="translate(1080, 150)" opacity="0.95">
+  <g transform="translate(1080, 100)" opacity="0.95">
     <circle cx="0" cy="0" r="68" fill="none" stroke="#0969da" stroke-width="1" opacity="0.25"/>
     <circle cx="0" cy="0" r="50" fill="none" stroke="#8250df" stroke-width="1" opacity="0.25"/>
     <circle cx="0" cy="0" r="32" fill="none" stroke="#1a7f37" stroke-width="1" opacity="0.25"/>
@@ -73,5 +60,18 @@
         <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="6s" repeatCount="indefinite"/>
       </line>
     </g>
+  </g>
+
+  <g transform="translate(960, 200)">
+    <rect x="0" y="0" rx="23" ry="23" width="240" height="46" fill="#ffffff" stroke="#1a7f37" stroke-width="1.8"/>
+    <circle cx="24" cy="23" r="7" fill="#1a7f37">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="7;8.5;7" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="24" cy="23" r="7" fill="none" stroke="#1a7f37" stroke-width="2" opacity="0.65">
+      <animate attributeName="r" values="7;22" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.65;0" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="48" y="30" font-size="18" font-weight="700" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, system-ui, sans-serif" fill="#1a7f37">Available now</text>
   </g>
 </svg>

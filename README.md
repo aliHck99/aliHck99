@@ -147,7 +147,7 @@ Markdown writeups for four TryHackMe rooms — Anonymous, Broker, LazyAdmin, Won
 
 | | |
 |:---|:---|
-| 🎓 &nbsp; **eJPT — eLearnSecurity Junior Penetration Tester** &nbsp; *(Feb 2026)* | INE Security · hands-on practical exam. Network and web enumeration, exploitation, post-exploitation, pivoting, and privilege escalation across Linux and Windows targets. |
+| 🎓 &nbsp; **[eJPT — eLearnSecurity Junior Penetration Tester](https://certs.ine.com/e25e9361-9492-46ac-82d7-d48059c6305f)** &nbsp; *(Feb 2026)* &nbsp; [![Verify](https://img.shields.io/badge/Verify-INE-1B6AC6?style=flat-square)](https://certs.ine.com/e25e9361-9492-46ac-82d7-d48059c6305f) | INE Security · hands-on practical exam. Network and web enumeration, exploitation, post-exploitation, pivoting, and privilege escalation across Linux and Windows targets. |
 | ☁️ &nbsp; **ICCA — INE Certified Cloud Associate** &nbsp; *(Nov 2025)* | INE Security · cloud fundamentals across AWS, Azure, and GCP — identity, networking, storage, and the shared-responsibility model. |
 
 ---

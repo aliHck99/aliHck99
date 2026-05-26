@@ -7,8 +7,6 @@
   <img src="./assets/hero-light.svg?v=5" alt="Ali Naim — Cybersecurity Student" width="100%">
 </picture>
 
-<br/>
-<br/>
 
 [![Email](https://img.shields.io/badge/Email-hck20255-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hck20255@gmail.com)
 &nbsp;

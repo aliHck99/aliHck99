@@ -14,7 +14,7 @@
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-hck20255-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hck20255@gmail.com)
 &nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-aliHck99-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aliHck99)
+[![GitHub](https://img.shields.io/badge/GitHub-naim--ali27-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/naim-ali27)
 
 </div>
 
@@ -49,7 +49,7 @@ I'm **available now** for SOC analyst and penetration testing internships or jun
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ &nbsp; [active-directory-pentest-lab](https://github.com/aliHck99/active-directory-pentest-lab)
+### 🛡️ &nbsp; [active-directory-pentest-lab](https://github.com/naim-ali27/active-directory-pentest-lab)
 
 Full AD attack chain on Windows Server 2025: AS-REP Roasting, DCSync, Pass-the-Hash, wmiexec, Golden Ticket. Sanitized commands, eight screenshots, MITRE ATT&CK mapping, remediation notes.
 
@@ -60,7 +60,7 @@ Full AD attack chain on Windows Server 2025: AS-REP Roasting, DCSync, Pass-the-H
 </td>
 <td width="50%" valign="top">
 
-### 🍯 &nbsp; [SentinelForge](https://github.com/aliHck99/SentinelForge)
+### 🍯 &nbsp; [SentinelForge](https://github.com/naim-ali27/SentinelForge)
 
 Raspberry Pi SSH honeypot feeding a Wazuh SIEM. Cowrie + Suricata on the Pi, custom Wazuh rules (`100900–100910`), GeoIP enrichment, Discord SOC alerts through n8n.
 
@@ -74,7 +74,7 @@ Raspberry Pi SSH honeypot feeding a Wazuh SIEM. Cowrie + Suricata on the Pi, cus
 <tr>
 <td width="50%" valign="top">
 
-### 🚨 &nbsp; [soc-soar-detection-pipeline](https://github.com/aliHck99/soc-soar-detection-pipeline)
+### 🚨 &nbsp; [soc-soar-detection-pipeline](https://github.com/naim-ali27/soc-soar-detection-pipeline)
 
 End-to-end SOC alerting. Wazuh correlation rules on Sysmon telemetry detect Hydra/CrackMapExec brute force, n8n formats the alert, Discord receives it in under eight seconds.
 
@@ -85,7 +85,7 @@ End-to-end SOC alerting. Wazuh correlation rules on Sysmon telemetry detect Hydr
 </td>
 <td width="50%" valign="top">
 
-### 📚 &nbsp; [ejpt-ctf-writeups](https://github.com/aliHck99/ejpt-ctf-writeups)
+### 📚 &nbsp; [ejpt-ctf-writeups](https://github.com/naim-ali27/ejpt-ctf-writeups)
 
 Nine writeups from the INE eJPT path. Exploitation, post-exploitation, pivoting, privilege escalation. EternalBlue, Mimikatz, sudo abuse, SUID hunts, multi-host chains.
 
@@ -99,7 +99,7 @@ Nine writeups from the INE eJPT path. Exploitation, post-exploitation, pivoting,
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 &nbsp; [packet-tracer-enterprise-network](https://github.com/aliHck99/packet-tracer-enterprise-network)
+### 🌐 &nbsp; [packet-tracer-enterprise-network](https://github.com/naim-ali27/packet-tracer-enterprise-network)
 
 Multi-region Cisco network: VLAN segmentation, OSPF + RIP with mutual redistribution, DHCP/DNS/HTTP/Syslog services, ACL-based Internet filtering. 
 
@@ -110,7 +110,7 @@ Multi-region Cisco network: VLAN segmentation, OSPF + RIP with mutual redistribu
 </td>
 <td width="50%" valign="top">
 
-### 🧪 &nbsp; [TryHackMe-CTF-Writeups](https://github.com/aliHck99/TryHackMe-CTF-Writeups)
+### 🧪 &nbsp; [TryHackMe-CTF-Writeups](https://github.com/naim-ali27/TryHackMe-CTF-Writeups)
 
 Markdown writeups for four TryHackMe rooms — Anonymous, Broker, LazyAdmin, Wonderland. SUID abuse, Apache ActiveMQ RCE, sudo chains, CVE-2021-4034 PwnKit.
 
@@ -158,9 +158,9 @@ Markdown writeups for four TryHackMe rooms — Anonymous, Broker, LazyAdmin, Won
 
 <div align="center">
 
-![Ali's GitHub stats](https://github-readme-stats.vercel.app/api?username=aliHck99&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&title_color=58a6ff&icon_color=58a6ff&text_color=808080&bg_color=00000000)
+![Ali's GitHub stats](https://github-readme-stats.vercel.app/api?username=naim-ali27&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&title_color=58a6ff&icon_color=58a6ff&text_color=808080&bg_color=00000000)
 &nbsp;
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aliHck99&layout=compact&hide_border=true&langs_count=6&title_color=58a6ff&text_color=808080&bg_color=00000000)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=naim-ali27&layout=compact&hide_border=true&langs_count=6&title_color=58a6ff&text_color=808080&bg_color=00000000)
 
 </div>
 

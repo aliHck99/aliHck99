@@ -49,22 +49,22 @@ Seeking SOC analyst and penetration testing **internships or junior roles**.
 
 ### 🛡️ &nbsp; [active-directory-pentest-lab](https://github.com/naim-ali27/active-directory-pentest-lab)
 
-Full AD attack chain on Windows Server 2025: AS-REP Roasting, DCSync, Pass-the-Hash, wmiexec, Golden Ticket. Sanitized commands, eight screenshots, MITRE ATT&CK mapping, remediation notes.
+Full AD attack chain on Windows Server 2025: AS-REP Roasting, DCSync, Pass-the-Hash, remote command execution via wmiexec, Golden Ticket. Sanitized commands, eight screenshots, MITRE ATT&CK mapping, remediation notes.
 
 `Impacket` `CrackMapExec` `Hashcat` `Kali` `Windows Server 2025`
 
-**Status** — complete · 7 attack phases documented
+7 documented attack phases
 
 </td>
 <td width="50%" valign="top">
 
 ### 🍯 &nbsp; [SentinelForge](https://github.com/naim-ali27/SentinelForge)
 
-Raspberry Pi SSH honeypot feeding a Wazuh SIEM. Cowrie + Suricata on the Pi, custom Wazuh rules (`100900–100910`), GeoIP enrichment, Discord SOC alerts through n8n.
+Raspberry Pi SSH honeypot integrated with Wazuh SIEM. Cowrie + Suricata on the Pi, custom Wazuh rules (`100900–100910`), GeoIP enrichment, Discord SOC alerts through n8n.
 
 `Wazuh` `Suricata` `Cowrie` `n8n` `Raspberry Pi`
 
-**Status** — 17 screenshots · 7 custom Wazuh rules · live attack detection documented
+17 screenshots · 7 custom Wazuh rules · live attack detection documented
 
 </td>
 </tr>
@@ -78,7 +78,7 @@ End-to-end SOC alerting. Wazuh correlation rules on Sysmon telemetry detect Hydr
 
 `Wazuh` `Sysmon` `n8n` `Bash` `Kali`
 
-**Status** — verified end-to-end · alert latency < 8 s
+End-to-end alert pipeline validated · alert latency under 8 seconds
 
 </td>
 <td width="50%" valign="top">
@@ -89,7 +89,7 @@ Nine writeups from the INE eJPT path. Exploitation, post-exploitation, pivoting,
 
 `Metasploit` `Nmap` `Meterpreter` `Mimikatz` `proxychains`
 
-**Status** — 9 labs · eJPT passed Feb 2026
+9 documented labs · eJPT passed Feb 2026
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Multi-region Cisco network: VLAN segmentation, OSPF + RIP with mutual redistribu
 
 `Cisco` `Packet Tracer` `OSPF` `RIP` `VLAN` `ACL`
 
-**Status** — deployed
+VLAN segmentation, routing, and ACL filtering configured and validated
 
 </td>
 <td width="50%" valign="top">
@@ -114,7 +114,7 @@ Markdown writeups for four TryHackMe rooms — Anonymous, Broker, LazyAdmin, Won
 
 `Nmap` `gobuster` `Metasploit` `PwnKit`
 
-**Status** — 4 rooms · flags redacted
+4 documented rooms · flags redacted
 
 </td>
 </tr>

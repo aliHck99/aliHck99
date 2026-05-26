@@ -150,18 +150,6 @@ Markdown writeups for four TryHackMe rooms — Anonymous, Broker, LazyAdmin, Won
 
 ---
 
-## GitHub stats
-
-<div align="center">
-
-![Ali's GitHub stats](https://github-readme-stats.vercel.app/api?username=naim-ali27&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&title_color=58a6ff&icon_color=58a6ff&text_color=808080&bg_color=00000000)
-&nbsp;
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=naim-ali27&layout=compact&hide_border=true&langs_count=6&title_color=58a6ff&text_color=808080&bg_color=00000000)
-
-</div>
-
----
-
 <div align="center">
 
 ## Let's work together

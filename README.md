@@ -26,7 +26,7 @@
 - **SentinelForge honeypot** — Raspberry Pi SSH honeypot wired into a Wazuh SIEM with custom detection rules and Discord alerting
 - **SOC SOAR pipeline** — Wazuh + Sysmon + n8n detecting brute-force attacks across Linux and Windows in under eight seconds
 
-I'm **available now** for SOC analyst and penetration testing internships or junior roles — remote, hybrid, or Beirut-based.
+Seeking SOC analyst and penetration testing **internships or junior roles**.
 
 ---
 

@@ -64,7 +64,7 @@ Raspberry Pi SSH honeypot feeding a Wazuh SIEM. Cowrie + Suricata on the Pi, cus
 
 `Wazuh` `Suricata` `Cowrie` `n8n` `Raspberry Pi`
 
-**Status** — lab-complete · 17 screenshots · 7 custom rules
+**Status** — 17 screenshots · 7 custom Wazuh rules · live attack detection documented
 
 </td>
 </tr>

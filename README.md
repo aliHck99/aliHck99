@@ -24,7 +24,7 @@
 
 Three projects, all built and operated in my own home lab:
 
-- **Active Directory pentest lab** — full attack chain on Windows Server 2025, from enumeration to Golden Ticket persistence
+- **Active Directory pentest lab** — Full Active Directory attack chain on Windows Server 2025, from enumeration through domain compromise and Golden Ticket authentication
 - **SentinelForge honeypot** — Raspberry Pi SSH honeypot wired into a Wazuh SIEM with custom detection rules and Discord alerting
 - **SOC SOAR pipeline** — Wazuh + Sysmon + n8n detecting brute-force attacks across Linux and Windows in under eight seconds
 

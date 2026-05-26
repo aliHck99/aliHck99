@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 480" width="768" height="480" role="img" aria-label="Ali Naim — Cybersecurity Student">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#a371f7"/>
+      <stop offset="1" stop-color="#7ee787"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#21262d" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="768" height="480" fill="url(#bg)"/>
+  <rect width="768" height="480" fill="url(#grid)"/>
+  <rect x="0" y="0" width="768" height="6" fill="url(#accent)"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, system-ui, sans-serif" text-anchor="middle">
+    <text x="384" y="140" font-size="22" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#7d8590">$ whoami</text>
+    <text x="384" y="220" font-size="72" font-weight="700" fill="#f0f6fc" letter-spacing="-2">Ali Naim</text>
+    <text x="384" y="280" font-size="24" font-weight="500" fill="#c9d1d9">Cybersecurity student</text>
+    <text x="384" y="315" font-size="24" font-weight="500" fill="#c9d1d9">SOC &amp; penetration testing</text>
+    <text x="384" y="380" font-size="18" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#58a6ff">eJPT &#8226; ICCA</text>
+    <text x="384" y="410" font-size="18" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#58a6ff">USAL '27 &#8226; Lebanon</text>
+  </g>
+</svg>

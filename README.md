@@ -110,7 +110,7 @@ VLAN segmentation, routing, and ACL filtering configured and validated
 
 ### 🧪 &nbsp; [TryHackMe-CTF-Writeups](https://github.com/naim-ali27/TryHackMe-CTF-Writeups)
 
-Markdown writeups for four TryHackMe rooms — Anonymous, Broker, LazyAdmin, Wonderland. SUID abuse, Apache ActiveMQ RCE, sudo chains, CVE-2021-4034 PwnKit.
+30+ hands-on TryHackMe rooms completed; 4 public writeups documenting exploitation and privilege escalation techniques.
 
 `Nmap` `gobuster` `Metasploit` `PwnKit`
 

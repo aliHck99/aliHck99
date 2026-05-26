@@ -7,7 +7,11 @@
   <img src="./assets/hero-light.svg?v=6" alt="Ali Naim — Cybersecurity Student" width="100%">
 </picture>
 
+<br/>
+<br/>
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ali--naim-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-naim)
+&nbsp;
 [![Email](https://img.shields.io/badge/Email-hck20255-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hck20255@gmail.com)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-naim--ali27-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/naim-ali27)

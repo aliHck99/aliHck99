@@ -32,12 +32,9 @@ Seeking SOC analyst and penetration testing **internships or junior roles**.
 
 |  |  |
 |:---|:---|
-| 🟢 &nbsp; **Polishing** &nbsp; | Documentation, MITRE mappings, and repo cleanup across the three labs — getting them application-ready |
-| 🔵 &nbsp; **Reading** &nbsp; |🔵 Reading
-Windows attack techniques and real-world SOC investigations |
-| 🟠 &nbsp; **Studying** &nbsp; |  Active Directory attack paths · detection-rule design patterns for blue-team interviews |
-
----
+| 🟢 **Building** | Building and documenting cybersecurity homelab projects |
+| 🔵 **Reading** | Windows attack techniques and real-world SOC investigations |
+| 🟠 **Studying** | Automation workflows for penetration testing and SOC alerting |
 
 ## Featured projects
 

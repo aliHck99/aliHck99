@@ -101,11 +101,11 @@ Nine writeups from the INE eJPT path. Exploitation, post-exploitation, pivoting,
 
 ### 🌐 &nbsp; [packet-tracer-enterprise-network](https://github.com/aliHck99/packet-tracer-enterprise-network)
 
-Multi-region Cisco network: VLAN segmentation, OSPF + RIP with mutual redistribution, DHCP/DNS/HTTP/Syslog services, ACL-based Internet filtering. SECU313 final project.
+Multi-region Cisco network: VLAN segmentation, OSPF + RIP with mutual redistribution, DHCP/DNS/HTTP/Syslog services, ACL-based Internet filtering. 
 
 `Cisco` `Packet Tracer` `OSPF` `RIP` `VLAN` `ACL`
 
-**Status** — deployed · graded coursework
+**Status** — deployed ·
 
 </td>
 <td width="50%" valign="top">

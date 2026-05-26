@@ -63,8 +63,7 @@
 
   <rect x="80" y="408" width="180" height="7" rx="3.5" fill="url(#accentL)" class="pulse-rule"/>
 
-  <text class="sans" x="80" y="456" font-size="26" font-weight="700" fill="#1A2238">SOC Analysis  ·  Penetration Testing  ·</text>
-  <text class="sans" x="555" y="456" font-size="26" font-weight="500" fill="#1a7f37" font-style="italic">Cybersecurity Student.</text>
+  <text class="sans" x="80" y="456" font-size="26" font-weight="700" fill="#1A2238">SOC Analysis  ·  Penetration Testing.</text>
 
   <g>
     <g class="rotate-slow">

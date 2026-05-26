@@ -69,8 +69,7 @@
 
   <rect x="40" y="448" width="150" height="6" rx="3" fill="url(#accentMD)" class="pulse-rule"/>
 
-  <text class="sans" x="40" y="500" font-size="22" font-weight="700" fill="#F5F1E8">SOC Analysis  ·  Penetration Testing</text>
-  <text class="sans" x="40" y="528" font-size="22" font-weight="500" fill="#7ee787" font-style="italic">Cybersecurity Student.</text>
+  <text class="sans" x="40" y="500" font-size="22" font-weight="700" fill="#F5F1E8">SOC Analysis  ·  Penetration Testing.</text>
 
   <line x1="40" y1="600" x2="560" y2="600" stroke="#F5F1E8" stroke-width="1.2"/>
   <text class="mono" x="300" y="638" font-size="12" font-weight="700" fill="#94A3B8" letter-spacing="2" text-anchor="middle">3 SECURITY LABS  ·  eJPT + ICCA  ·  13 CTF WRITEUPS</text>

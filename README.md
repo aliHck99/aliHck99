@@ -20,7 +20,9 @@
 
 ## About
 
- Cybersecurity student at **USAL** in Lebanon, graduating **2027**. I learn by building — small, end-to-end home labs that cover both sides of the same problem: how an attack actually works, and how a SOC actually sees it.
+ Cybersecurity student at **USAL** in Lebanon, graduating **2027**, certified in **eJPT** and **ICCA**. I learn by building — small, end-to-end home labs that cover both sides of the same problem: how an attack actually works, and how a SOC actually sees it.
+
+Three projects, all built and operated in my own home lab:
 
 - **Active Directory pentest lab** — full attack chain on Windows Server 2025, from enumeration to Golden Ticket persistence
 - **SentinelForge honeypot** — Raspberry Pi SSH honeypot wired into a Wazuh SIEM with custom detection rules and Discord alerting

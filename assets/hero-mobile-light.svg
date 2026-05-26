@@ -1,69 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 560" width="768" height="560" role="img" aria-label="Ali Naim — Cybersecurity Student — Available now">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 680" width="600" height="680" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Ali Naim — Cybersecurity Student">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#f6f8fa"/>
+    <linearGradient id="accentML" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0969da"/>
+      <stop offset="100%" stop-color="#1a7f37"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0969da"/>
-      <stop offset="0.5" stop-color="#8250df"/>
-      <stop offset="1" stop-color="#1a7f37"/>
+    <linearGradient id="nameML" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#1A2238"/>
+      <stop offset="100%" stop-color="#0969da"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#d0d7de" stroke-width="0.5"/>
-    </pattern>
+    <radialGradient id="bgGlowML" cx="50%" cy="25%" r="70%">
+      <stop offset="0%"   stop-color="#E6F0FF" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#FAF7F0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreenM" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#1a7f37" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#1a7f37" stop-opacity="0"/>
+    </radialGradient>
   </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, system-ui, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'IBM Plex Mono', ui-monospace, Menlo, monospace; }
+    @keyframes breathe   { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+    @keyframes blink     { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    @keyframes float-a   { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    @keyframes float-b   { 0%,100% { transform: translateY(0); } 50% { transform: translateY(7px); } }
+    @keyframes pulse-rule { 0%,100% { transform: scaleX(1); opacity: 0.9; } 50% { transform: scaleX(1.08); opacity: 1; } }
+    @keyframes rotate-slow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    .live   { animation: breathe 2.2s ease-in-out infinite; }
+    .blink  { animation: blink 1.1s steps(2) infinite; }
+    .float-a { animation: float-a 5s ease-in-out infinite; transform-origin: center; }
+    .float-b { animation: float-b 6s ease-in-out infinite; transform-origin: center; }
+    .pulse-rule { animation: pulse-rule 3s ease-in-out infinite; transform-origin: left center; }
+    .rotate-slow { animation: rotate-slow 60s linear infinite; transform-origin: 480px 180px; }
+  </style>
 
-  <rect width="768" height="560" fill="url(#bg)"/>
-  <rect width="768" height="560" fill="url(#grid)"/>
-  <rect x="0" y="0" width="768" height="6" fill="url(#accent)"/>
+  <rect width="600" height="680" fill="#FAF7F0"/>
+  <rect width="600" height="680" fill="url(#bgGlowML)"/>
+  <circle cx="100" cy="600" r="260" fill="url(#glowGreenM)"/>
 
-  <g transform="translate(259, 30)">
-    <rect x="0" y="0" rx="25" ry="25" width="250" height="50" fill="#ffffff" stroke="#1a7f37" stroke-width="1.8"/>
-    <circle cx="26" cy="25" r="7" fill="#1a7f37">
-      <animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="7;8.5;7" dur="1.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="26" cy="25" r="7" fill="none" stroke="#1a7f37" stroke-width="2" opacity="0.65">
-      <animate attributeName="r" values="7;22" dur="1.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.65;0" dur="1.6s" repeatCount="indefinite"/>
-    </circle>
-    <text x="50" y="32" font-size="19" font-weight="700" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, system-ui, sans-serif" fill="#1a7f37">Available now</text>
+  <circle class="float-a" cx="510" cy="500" r="6"  fill="#0969da" opacity="0.50"/>
+  <circle class="float-b" cx="60"  cy="320" r="4"  fill="#1a7f37" opacity="0.55"/>
+  <circle class="float-a" cx="540" cy="630" r="5"  fill="#1a7f37" opacity="0.30"/>
+  <rect   class="float-b" x="40" y="540" width="9" height="9" fill="#8250df" opacity="0.40" transform="rotate(45 44 544)"/>
+
+  <g transform="translate(40, 50)">
+    <rect width="220" height="40" rx="20" fill="#1a7f37"/>
+    <circle cx="22" cy="20" r="6" fill="#FAF7F0" class="live"/>
+    <text class="sans" x="40" y="26" font-size="14" font-weight="800" fill="#FAF7F0" letter-spacing="1.4">AVAILABLE NOW</text>
   </g>
 
-  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, system-ui, sans-serif" text-anchor="middle">
-    <text x="384" y="130" font-size="22" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#57606a">$ whoami</text>
-    <text x="384" y="210" font-size="72" font-weight="700" fill="#1f2328" letter-spacing="-2">Ali Naim</text>
-    <text x="384" y="265" font-size="24" font-weight="500" fill="#424a53">Cybersecurity student</text>
-    <text x="384" y="300" font-size="24" font-weight="500" fill="#424a53">SOC &amp; penetration testing</text>
-    <text x="384" y="525" font-size="18" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#0969da">eJPT &#8226; ICCA &#8226; USAL '27 &#8226; Lebanon</text>
+  <text class="mono" x="40" y="128" font-size="12" font-weight="600" fill="#6B7280" letter-spacing="1.5">LEBANON  ·  USAL  ·  3 LANGUAGES</text>
+
+  <g>
+    <g class="rotate-slow">
+      <circle cx="480" cy="180" r="80" fill="none" stroke="#1A2238" stroke-width="1" stroke-dasharray="3 7" opacity="0.22"/>
+      <circle cx="480" cy="100" r="3" fill="#1a7f37"/>
+    </g>
+    <circle cx="480" cy="180" r="56" fill="#1A2238"/>
+    <circle cx="480" cy="180" r="56" fill="none" stroke="#0969da" stroke-width="3"/>
+    <text class="sans" x="480" y="202" font-size="56" font-weight="800" fill="#FAF7F0" text-anchor="middle" letter-spacing="-2">A</text>
   </g>
 
-  <g transform="translate(384, 425)" opacity="0.95">
-    <circle cx="0" cy="0" r="62" fill="none" stroke="#0969da" stroke-width="1" opacity="0.25"/>
-    <circle cx="0" cy="0" r="44" fill="none" stroke="#8250df" stroke-width="1" opacity="0.25"/>
-    <circle cx="0" cy="0" r="28" fill="none" stroke="#1a7f37" stroke-width="1" opacity="0.25"/>
-    <path d="M -62 0 L 62 0 M 0 -62 L 0 62" stroke="#d0d7de" stroke-width="0.7"/>
-
-    <circle cx="0" cy="0" r="6" fill="none" stroke="#0969da" stroke-width="2">
-      <animate attributeName="r" values="6;66" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-width" values="2;0.5" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="0" cy="0" r="6" fill="none" stroke="#8250df" stroke-width="2">
-      <animate attributeName="r" values="6;66" dur="3s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0" dur="3s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-width" values="2;0.5" dur="3s" begin="1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="0" cy="0" r="6" fill="none" stroke="#1a7f37" stroke-width="2">
-      <animate attributeName="r" values="6;66" dur="3s" begin="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0" dur="3s" begin="2s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-width" values="2;0.5" dur="3s" begin="2s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="0" cy="0" r="6" fill="#1a7f37">
-      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite"/>
-    </circle>
+  <text class="sans" x="40" y="338" font-size="86" font-weight="800" fill="url(#nameML)" letter-spacing="-3">Ali</text>
+  <g>
+    <text class="sans" x="40" y="424" font-size="86" font-weight="800" fill="url(#nameML)" letter-spacing="-3">Naim.</text>
+    <rect x="278" y="356" width="14" height="64" fill="#0969da" class="blink"/>
   </g>
+
+  <rect x="40" y="448" width="150" height="6" rx="3" fill="url(#accentML)" class="pulse-rule"/>
+
+  <text class="sans" x="40" y="500" font-size="22" font-weight="700" fill="#1A2238">SOC Analysis  ·  Penetration Testing</text>
+  <text class="sans" x="40" y="528" font-size="22" font-weight="500" fill="#1a7f37" font-style="italic">Cybersecurity Student.</text>
+
+  <line x1="40" y1="600" x2="560" y2="600" stroke="#1A2238" stroke-width="1.2"/>
+  <text class="mono" x="300" y="638" font-size="12" font-weight="700" fill="#6B7280" letter-spacing="2" text-anchor="middle">3 SECURITY LABS  ·  eJPT + ICCA  ·  13 CTF WRITEUPS</text>
 </svg>

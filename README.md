@@ -168,7 +168,7 @@ Markdown writeups for four TryHackMe rooms — Anonymous, Broker, LazyAdmin, Won
 
 ## Let's work together
 
-Open to **SOC analyst · penetration testing** roles &nbsp;—&nbsp; **internships &amp; junior positions** &nbsp;·&nbsp; **available now**
+Open to **SOC analyst · penetration testing** roles &nbsp;—&nbsp; **internships &amp; junior positions**
 
 
 

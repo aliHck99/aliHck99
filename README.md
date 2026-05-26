@@ -34,9 +34,9 @@ I'm **available now** for SOC analyst and penetration testing internships or jun
 
 |  |  |
 |:---|:---|
-| 🟢 &nbsp; **Building** &nbsp; | **SentinelForge** — extending the Wazuh ruleset and enriching alerts with HASSH fingerprinting for brute-force attribution |
-| 🔵 &nbsp; **Reading** &nbsp; | **Wazuh** rules-and-decoders reference · **MITRE ATT&CK** Enterprise matrix · PortSwigger Web Security Academy notes |
-| 🟠 &nbsp; **Studying** &nbsp; | Windows internals and PowerShell for AD red-teaming · Kerberos delegation attacks · detection-rule design patterns |
+| 🟢 &nbsp; **Polishing** &nbsp; | Documentation, MITRE mappings, and repo cleanup across the three labs — getting them application-ready |
+| 🔵 &nbsp; **Reading** &nbsp; | SOC analyst &amp; penetration tester job descriptions · **MITRE ATT&CK** Enterprise matrix · interview prep notes |
+| 🟠 &nbsp; **Studying** &nbsp; | Reviewing eJPT material · Active Directory attack paths · detection-rule design patterns for blue-team interviews |
 
 ---
 

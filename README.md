@@ -25,7 +25,7 @@
 Three projects, all built and operated in my own home lab:
 
 - **Active Directory pentest lab** — Full Active Directory attack chain on Windows Server 2025, from enumeration through domain compromise and Golden Ticket authentication
-- **SentinelForge** — > Raspberry Pi–based SSH honeypot integrated with Wazuh SIEM, custom detection rules, and real-time Discord SOC alerting. Includes the custom “AEGISTRAP” alerting subsystem for event escalation and analyst notifications
+- **SentinelForge** — > Raspberry Pi–based SSH honeypot integrated with Wazuh SIEM, custom detection rules, and real-time Discord SOC alerting. Includes the custom “AEGISTRAP” alerting system for event escalation and analyst notifications
 
 - **SOC SOAR pipeline** — Real-time brute-force detection with Wazuh, Sysmon, n8n, and Discord alerts
 
@@ -61,7 +61,7 @@ Full AD attack chain on Windows Server 2025: AS-REP Roasting, DCSync, Pass-the-H
 
 ### 🍯 &nbsp; [SentinelForge](https://github.com/naim-ali27/SentinelForge)
 
-Raspberry Pi–based SSH honeypot and detection platform integrating Cowrie, Suricata, Wazuh SIEM, n8n automation, and Discord SOC alerting. Includes the custom “AEGISTRAP” alerting subsystem for event escalation and analyst notifications.
+Raspberry Pi–based SSH honeypot and detection platform integrating Cowrie, Suricata, Wazuh SIEM, n8n automation, and Discord SOC alerting. Includes the custom “AEGISTRAP” alerting system for event escalation and analyst notifications.
 
 `Wazuh` `Suricata` `Cowrie` `AEGISTRAP` `Raspberry Pi`
 

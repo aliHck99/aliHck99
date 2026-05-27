@@ -61,7 +61,7 @@ Full AD attack chain on Windows Server 2025: AS-REP Roasting, DCSync, Pass-the-H
 
 ### 🍯 &nbsp; [SentinelForge](https://github.com/naim-ali27/SentinelForge)
 
-Raspberry Pi SSH honeypot and detection platform. Cowrie captures attacker sessions, Suricata inspects traffic, and Wazuh correlates events through custom rules (`100900–100910`) with GeoIP enrichment. Enriched SOC alerts are dispatched to Discord via **AEGISTRAP**, the platform's in-house alerting and notification module.
+Raspberry Pi–based SSH honeypot and detection platform integrating Cowrie, Suricata, Wazuh, and Discord SOC alerting. **AEGISTRAP** is the custom alerting/notification module used within the platform.
 
 `Wazuh` `Suricata` `Cowrie` `AEGISTRAP` `Raspberry Pi`
 

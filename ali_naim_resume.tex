@@ -1,0 +1,191 @@
+% ─────────────────────────────────────────────────────────────────
+%  Ali Naim — Resume
+% ─────────────────────────────────────────────────────────────────
+\documentclass[11pt]{article}
+
+\usepackage{lmodern}
+\usepackage[margin=0.70in, top=0.55in, bottom=0.55in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage[colorlinks=true, urlcolor=resumeteal, linkcolor=resumeteal]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[disable]{microtype}
+
+\definecolor{resumeteal}{RGB}{0, 118, 130}
+
+\titleformat{\section}
+  {\bfseries\color{resumeteal}}
+  {}{0em}{\MakeUppercase}
+  [\color{resumeteal}\vspace{-3pt}\rule{\linewidth}{0.4pt}]
+\titlespacing{\section}{0pt}{10pt}{4pt}
+
+\setlist[itemize]{
+  leftmargin=1.4em,
+  itemsep=1.5pt,
+  topsep=3pt,
+  parsep=0pt
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\pagestyle{empty}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+\raggedright
+
+% ─── HEADER ──────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\bfseries Ali Naim}\\[4pt]
+  {\small
+  Lebanon
+  $\cdot$ +961 71 584 798
+  $\cdot$ \href{mailto:naimalii2005@gmail.com}{naimalii2005@gmail.com}
+  $\cdot$ \href{https://github.com/naim-ali27}{github.com/naim-ali27}
+  }
+\end{center}
+
+\vspace{2pt}
+
+% ─── SUMMARY ─────────────────────────────────────────────────────
+\section{Summary}
+
+Cybersecurity student (graduating 2027) certified in \textbf{eJPT} and \textbf{ICCA}. Built three
+independent security labs covering Active Directory attacks, honeypot-based threat detection,
+and automated SOC alerting --- all self-designed and operated. Seeking internships or junior
+roles in SOC analysis and penetration testing.
+
+% ─── CERTIFICATIONS ──────────────────────────────────────────────
+\section{Certifications}
+
+\textbf{eJPT --- eLearnSecurity Junior Penetration Tester (Hands-On Practical)}\\
+\textbf{INE Security $\cdot$ Feb 2026}
+
+\smallskip
+\textbf{ICCA --- INE Certified Cloud Associate}\\
+\textbf{INE Security $\cdot$ Nov 2025}
+
+% ─── TECHNICAL SKILLS ────────────────────────────────────────────
+\section{Technical Skills}
+
+\vspace{2pt}
+\textbf{Offensive Security}\\
+Nmap, Metasploit, CrackMapExec, Hydra, Gobuster, Hashcat,
+John the Ripper, Netcat, Searchsploit
+
+\smallskip
+\textbf{Web Application Testing}\\
+Burp Suite, SQLMap, DVWA, PortSwigger Labs, SQL Injection
+
+\smallskip
+\textbf{Vulnerability Assessment}\\
+Nessus, OpenVAS
+
+\smallskip
+\textbf{SOC \& Detection Engineering}\\
+Wazuh, Suricata, Sysmon, Cowrie, Custom Sigma/Wazuh Rules, Log Enrichment,
+MITRE ATT\&CK, Alert Triage, OpenSearch
+
+\smallskip
+\textbf{SOAR \& Scripting}\\
+n8n, Python, Bash, PowerShell
+
+\smallskip
+\textbf{Infrastructure \& Networking}\\
+Kali Linux, Ubuntu Server, Windows Server 2025, Windows 10, Raspberry Pi 4,
+TCP/IP, SMB, RDP, SSH, DNS, nftables, Wireshark
+
+% ─── PROJECTS ────────────────────────────────────────────────────
+\section{Projects}
+
+\textbf{Active Directory Penetration Testing Lab}\\
+{\small Impacket, CrackMapExec, Hashcat, Enum4linux, Nmap, Kali Linux, Windows Server 2025}\\
+{\small \href{https://github.com/naim-ali27/active-directory-pentest-lab}{github.com/naim-ali27/active-directory-pentest-lab}}
+
+\begin{itemize}
+  \item Built and attacked a self-hosted Windows Server 2025 AD environment with \textbf{100+ accounts}
+    --- full attack chain from scanning and enumeration through credential theft, lateral movement,
+    and domain compromise.
+  \item Performed \textbf{AS-REP Roasting} via impacket-GetNPUsers and cracked two domain accounts
+    offline using Hashcat.
+  \item Ran \textbf{DCSync} via impacket-secretsdump to extract all domain password hashes,
+    including Administrator, krbtgt, and service accounts, without interactive access to
+    the domain controller.
+  \item Chained \textbf{Pass-the-Hash} over SMB into a \textbf{SYSTEM shell} using impacket-wmiexec without
+    recovering plaintext credentials.
+  \item Mapped the attacks to MITRE ATT\&CK: T1046 (Network Service Discovery), T1087
+    (Account Discovery), T1558.004 (AS-REP Roasting), T1003.006 (DCSync), T1550.002
+    (Pass-the-Hash) and documented five AD misconfigurations with remediation notes.
+\end{itemize}
+
+\medskip
+\textbf{SentinelForge --- Honeypot-Based SOC Detection Platform}\\
+{\small Cowrie, Suricata, Wazuh, OpenSearch, nftables, Raspberry Pi 4, n8n, Python, Bash}\\
+{\small \href{https://github.com/naim-ali27/SentinelForge}{github.com/naim-ali27/SentinelForge}}
+
+\begin{itemize}
+  \item Deployed a full detection stack on a Raspberry Pi 4 --- Cowrie SSH honeypot, Suricata,
+    Wazuh, and n8n --- with automated Discord alerting.
+  \item Used nftables NAT rules to redirect inbound SSH traffic to the honeypot while keeping
+    the production SSH service hidden from the internet.
+  \item Wrote \textbf{7 custom Wazuh detection rules} covering brute-force attacks, command execution,
+    file transfer activity, and simulated compromise events.
+  \item Triaged \textbf{133 alerts} across live attack simulations: nmap reconnaissance, SSH
+    intrusion attempts, and Hydra brute force attacks.
+  \item Mapped detections to MITRE ATT\&CK: T1110 (Brute Force), T1021.004 (Remote Services:
+    SSH), T1059 (Command and Scripting Interpreter), T1105 (Ingress Tool Transfer).
+\end{itemize}
+
+\medskip
+\textbf{Real-Time SOC SOAR Detection Pipeline}\\
+{\small Wazuh, Sysmon, n8n, Hydra, CrackMapExec, Bash, Kali Linux, Windows 10}\\
+{\small \href{https://github.com/naim-ali27/soc-soar-detection-pipeline}{github.com/naim-ali27/soc-soar-detection-pipeline}}
+
+\begin{itemize}
+  \item Set up a real-time SOC alert pipeline across Windows 10 and Linux --- Wazuh, custom
+    correlation rules, n8n, and Discord --- with end-to-end alert latency \textbf{under 8 seconds}.
+  \item Deployed Sysmon across Windows endpoints to capture process creation, network
+    connections, image loads, and file events via encrypted Wazuh agents.
+  \item Wrote custom rules detecting repeated SSH and Windows login failures and mapped alerts
+    to MITRE ATT\&CK T1110 (Brute Force) / T1110.001 (Password Guessing).
+  \item Tested all detection rules using live attack simulations including Hydra SSH brute
+    force and CrackMapExec SMB/RDP credential spraying.
+\end{itemize}
+
+% ─── EDUCATION ───────────────────────────────────────────────────
+\section{Education}
+
+B.S. in Cybersecurity\\
+USAL University $\cdot$ Expected 2027
+
+\smallskip
+\textit{Relevant Coursework:}\\
+Operating Systems, Software Engineering, Advanced Programming \& Web Development
+
+% ─── SECURITY PRACTICE & CTF ─────────────────────────────────────
+\section{Security Practice \& CTF Activity}
+
+\textbf{eJPT CTF Writeups}\\
+\textbf{9 documented attack chains} covering exploitation, post-exploitation, pivoting,
+and privilege escalation\\
+\href{https://github.com/naim-ali27/ejpt-ctf-writeups}{\small github.com/naim-ali27/ejpt-ctf-writeups}
+
+\smallskip
+\textbf{TryHackMe}\\
+Hands-on labs covering scanning, exploitation, and privilege escalation; developed
+faster enumeration and exploitation workflows through repeated CTF-style practice\\
+\href{https://github.com/naim-ali27/TryHackMe-CTF-Writeups}{\small github.com/naim-ali27/TryHackMe-CTF-Writeups}
+
+\smallskip
+\textbf{Web Application Practice}\\
+PortSwigger Web Security Academy, DVWA --- SQL Injection
+
+% ─── LANGUAGES ───────────────────────────────────────────────────
+\section{Languages}
+
+\textbf{Arabic (Native)} $\cdot$ \textbf{English (Intermediate)} $\cdot$ \textbf{French (Intermediate)}
+
+\end{document}

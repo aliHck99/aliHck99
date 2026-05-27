@@ -10,7 +10,7 @@
 <br/>
 <br/>
 
-[![Email](https://img.shields.io/badge/Email-hck20255-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naimalii2005@gmail.com)
+[![Email](https://img.shields.io/badge/Email-naimalii2005-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naimalii2005@gmail.com)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-naim--ali27-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/naim-ali27)
 

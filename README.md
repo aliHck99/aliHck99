@@ -83,20 +83,6 @@ End-to-end alert pipeline validated · alert latency under 8 seconds
 </td>
 <td width="50%" valign="top">
 
-### 📚 &nbsp; [ejpt-ctf-writeups](https://github.com/naim-ali27/ejpt-ctf-writeups)
-
-Nine writeups from the INE eJPT path. Exploitation, post-exploitation, pivoting, privilege escalation. EternalBlue, Mimikatz, sudo abuse, SUID hunts, multi-host chains.
-
-`Metasploit` `Nmap` `Meterpreter` `Mimikatz` `proxychains`
-
-9 documented labs · eJPT passed Feb 2026
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### 🌐 &nbsp; [packet-tracer-enterprise-network](https://github.com/naim-ali27/packet-tracer-enterprise-network)
 
 Multi-region Cisco network: VLAN segmentation, OSPF + RIP with mutual redistribution, DHCP/DNS/HTTP/Syslog services, ACL-based Internet filtering.
@@ -106,20 +92,16 @@ Multi-region Cisco network: VLAN segmentation, OSPF + RIP with mutual redistribu
 VLAN segmentation, routing, and ACL filtering configured and validated
 
 </td>
-<td width="50%" valign="top">
-
-### 🧪 &nbsp; [TryHackMe-CTF-Writeups](https://github.com/naim-ali27/TryHackMe-CTF-Writeups)
-
-30+ hands-on TryHackMe rooms completed; 4 public writeups documenting exploitation and privilege escalation techniques.
-
-`Nmap` `gobuster` `Metasploit` `PwnKit`
-
-30+ solved · 4 documented rooms · flags redacted
-
-</td>
 </tr>
 
 </table>
+
+---
+
+## Writeups & Labs
+
+- 📚 **[ejpt-ctf-writeups](https://github.com/naim-ali27/ejpt-ctf-writeups)** — 9 documented labs · eJPT path
+- 🧪 **[TryHackMe-CTF-Writeups](https://github.com/naim-ali27/TryHackMe-CTF-Writeups)** — 30+ rooms · 4 documented
 
 ---
 

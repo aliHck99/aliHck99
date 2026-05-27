@@ -25,7 +25,8 @@
 Three projects, all built and operated in my own home lab:
 
 - **Active Directory pentest lab** — Full Active Directory attack chain on Windows Server 2025, from enumeration through domain compromise and Golden Ticket authentication
-- **SentinelForge honeypot** — Raspberry Pi SSH honeypot wired into a Wazuh SIEM with custom detection rules and Discord alerting
+- **SentinelForge honeypot** —> **SentinelForge** — Raspberry Pi–based SSH honeypot integrated with Wazuh SIEM, custom detection rules, and real-time Discord SOC alerting. Includes the custom “AEGISTRAP” alerting engine for event escalation and analyst notifications.
+
 - **SOC SOAR pipeline** — Real-time brute-force detection with Wazuh, Sysmon, n8n, and Discord alerts
 
 Seeking SOC analyst and penetration testing **internships or junior roles**.
